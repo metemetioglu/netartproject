@@ -1,0 +1,29 @@
+#header {
+    color: whitesmoke;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    display: flex;
+    justify-content: center;
+}
+
+#explanationflex {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+#hardwarepicture {
+    outline: double whitesmoke;
+    padding: 1em;
+}
+
+#hardwareexplanation {
+    outline: solid whitesmoke;
+    padding: 1em;
+}
+
+#softwarepicsflex {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
