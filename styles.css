@@ -1,0 +1,150 @@
+.navitem {
+    color: whitesmoke;
+    text-decoration: none;
+    transition: color 0.5s;
+}
+
+.navitem:hover {
+    color: #B2AC88;
+}
+
+#navbar-items {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    list-style: none;
+}
+
+#Vytas-Jankauskas {
+    display: flex;
+}
+
+#VytasPFP {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    margin: 0 20px 0 0;
+}
+
+#VytasGallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.GalleryImage {
+    width: 200px;
+    height: 200px;
+    margin: 0 0 20px 0;
+}
+
+#Leon-Eckert {
+    display: flex;
+}
+
+#LeonPFP {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    margin: 0 20px 0 0;
+}
+
+#header {
+    color: whitesmoke;
+    transition: color 0.5s;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    display: flex;
+    justify-content: center;
+}
+
+#header:hover {
+    color: #B2AC88;
+}
+
+#hardwarepicture {
+    display: flex;
+    justify-content: center;
+    padding: 1em;
+}
+
+#hardwareexplanationflex {
+    display: flex;
+    justify-content: center;
+}
+
+#hardwareexplanation {
+    color: whitesmoke;
+    text-align: center;
+    padding: 1em;
+    width: 100%;
+}
+
+#softwarepicsflex {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+#matrix {
+    background-image: url("https://giffiles.alphacoders.com/209/209037.gif");
+    color: whitesmoke;
+    text-align: center;
+}
+
+@media screen and (max-width: 600px) {
+    #VytasGallery {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+    #Leon-Eckert {
+        display: flex;
+        flex-direction: column;
+    }
+
+    #LeonPFP {
+        width: 200px;
+        height: 200px;
+        border-radius: 50%;
+        margin: 0 0 20px 0;
+    }
+
+    #VytasPFP {
+        width: 200px;
+        height: 200px;
+        border-radius: 50%;
+        margin: 0 0 20px 0;
+    }
+
+    #hardwareexplanationflex {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    #hardwareexplanation {
+        color: whitesmoke;
+        text-align: center;
+        padding: 1em;
+        width: 100%;
+    }
+
+    #softwarepicsflex {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    #softwarepics {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    #matrix {
+        background-image: url("https://giffiles.alphacoders.com/209/209037.gif");
+        color: whitesmoke;
+        text-align: center;
+    }
+}
