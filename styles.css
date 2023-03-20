@@ -90,6 +90,33 @@
     color: whitesmoke;
     text-align: center;
 }
+#takeawayheader {
+    display: flex;
+    justify-content: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    transition: 0.3s;
+}
+
+#takeawayheader:hover {
+    background-color: black;
+    color: whitesmoke;
+}
+
+#takeawaytext {
+    display: flex;
+    justify-content: center;
+}
+
+#takeawaytext:hover {
+    background-color: black;
+    color: whitesmoke;
+}
+
+.gridimageflex {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+}
 
 @media screen and (max-width: 600px) {
     #VytasGallery {
