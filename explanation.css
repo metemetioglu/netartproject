@@ -5,6 +5,12 @@
     justify-content: center;
 }
 
+#bodyflex {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
 #explanationflex {
     display: flex;
     flex-direction: row;
