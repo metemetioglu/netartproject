@@ -1,29 +1,30 @@
 #header {
     color: whitesmoke;
+    transition: color 0.5s;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     display: flex;
     justify-content: center;
 }
 
-#bodyflex {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-}
-
-#explanationflex {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
+#header:hover {
+    color: #B2AC88;
 }
 
 #hardwarepicture {
-    outline: double whitesmoke;
+    display: flex;
+    justify-content: center;
     padding: 1em;
 }
 
+#hardwareexplanationflex {
+    display: flex;
+    justify-content: center;
+}
+
 #hardwareexplanation {
-    outline: solid whitesmoke;
+    color: whitesmoke;
+    text-align: center;
+    width: 50%;
     padding: 1em;
 }
 
