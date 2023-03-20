@@ -5,7 +5,8 @@
 }
 
 .navitem:hover {
-    color: #B2AC88;
+    color: rgb(63, 248, 63);
+    background-color: black;
 }
 
 #navbar-items {
@@ -58,7 +59,7 @@
 }
 
 #header:hover {
-    color: #B2AC88;
+    color: rgb(63, 248, 63)
 }
 
 #hardwarepicture {
@@ -99,7 +100,7 @@
 
 #takeawayheader:hover {
     background-color: black;
-    color: whitesmoke;
+    color: rgb(63, 248, 63);
 }
 
 #takeawaytext {
